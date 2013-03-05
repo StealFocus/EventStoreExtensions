@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StealFocus.EventStoreExtensions", "StealFocus.EventStoreExtensions\StealFocus.EventStoreExtensions.csproj", "{948C1CD5-1F6F-491B-AA33-6E721FE195E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StealFocus.EventStoreExtensions.Tests", "StealFocus.EventStoreExtensions.Tests\StealFocus.EventStoreExtensions.Tests.csproj", "{244CA5DD-303C-4EB0-8978-6D9F3CB7D6C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{923F2781-C627-43BA-B5A9-445017A96BFA}"
+	ProjectSection(SolutionItems) = preProject
+		BuildServer.testsettings = BuildServer.testsettings
+		FxCopCustomDictionary.xml = FxCopCustomDictionary.xml
+		Local.testsettings = Local.testsettings
+		Settings.StyleCop = Settings.StyleCop
+		StealFocus.EventStoreExtensions.ruleset = StealFocus.EventStoreExtensions.ruleset
+		StealFocus.EventStoreExtensions.StrongNameKeyPair.snk = StealFocus.EventStoreExtensions.StrongNameKeyPair.snk
+		StealFocus.EventStoreExtensions.StrongNamePublicKey.snk = StealFocus.EventStoreExtensions.StrongNamePublicKey.snk
+		StealFocus.EventStoreExtensions.vsmdi = StealFocus.EventStoreExtensions.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5F454720-C53D-4601-AE19-ADA424373C8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B57756DA-7979-44D9-ADBF-78134973BF4D}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\StealFocus.EventStoreExtensions.Build.proj = Scripts\StealFocus.EventStoreExtensions.Build.proj
+		Scripts\StealFocus.EventStoreExtensions.Build.Project.Assembly.targets = Scripts\StealFocus.EventStoreExtensions.Build.Project.Assembly.targets
+		Scripts\StealFocus.EventStoreExtensions.Build.Project.CSharp.targets = Scripts\StealFocus.EventStoreExtensions.Build.Project.CSharp.targets
+		Scripts\StealFocus.EventStoreExtensions.Build.Project.targets = Scripts\StealFocus.EventStoreExtensions.Build.Project.targets
+		Scripts\StealFocus.EventStoreExtensions.Build.Project.VisualBasic.targets = Scripts\StealFocus.EventStoreExtensions.Build.Project.VisualBasic.targets
+		Scripts\StealFocus.EventStoreExtensions.CCNet.proj = Scripts\StealFocus.EventStoreExtensions.CCNet.proj
+		Scripts\StealFocus.EventStoreExtensions.targets = Scripts\StealFocus.EventStoreExtensions.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandFiles", "CommandFiles", "{E4A865E3-A3F2-45C0-BA62-ECDB25FF0CFD}"
+	ProjectSection(SolutionItems) = preProject
+		CommandFiles\StealFocus.EventStoreExtensions.Build.cmd = CommandFiles\StealFocus.EventStoreExtensions.Build.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BE170BDF-F71E-4188-BA51-D5A94653AAF7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artefacts", "Artefacts", "{A61803FE-E00E-4CA0-A28C-6368C542D76D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{5CFCF88F-9C90-4811-BF6D-9BFDB7161D0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StealFocus.EventStoreExtensions", "StealFocus.EventStoreExtensions", "{06A008F1-E120-49DA-8C8E-B81F811D07CA}"
+	ProjectSection(SolutionItems) = preProject
+		Artefacts\NuGet\StealFocus.EventStoreExtensions\StealFocus.EventStoreExtensions.nuspec = Artefacts\NuGet\StealFocus.EventStoreExtensions\StealFocus.EventStoreExtensions.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{F28E3FE5-ABA3-4193-9A00-9F8CE51741BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{3006F4F2-3608-49DB-8F63-A561F58B7DE8}"
+	ProjectSection(SolutionItems) = preProject
+		Artefacts\NuGet\StealFocus.EventStoreExtensions\Content\Events\EventStoreFactory.cs.pp = Artefacts\NuGet\StealFocus.EventStoreExtensions\Content\Events\EventStoreFactory.cs.pp
+		Artefacts\NuGet\StealFocus.EventStoreExtensions\Content\Events\NServiceBusDispatchCommits.cs.pp = Artefacts\NuGet\StealFocus.EventStoreExtensions\Content\Events\NServiceBusDispatchCommits.cs.pp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = StealFocus.EventStoreExtensions.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{948C1CD5-1F6F-491B-AA33-6E721FE195E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948C1CD5-1F6F-491B-AA33-6E721FE195E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948C1CD5-1F6F-491B-AA33-6E721FE195E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948C1CD5-1F6F-491B-AA33-6E721FE195E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244CA5DD-303C-4EB0-8978-6D9F3CB7D6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244CA5DD-303C-4EB0-8978-6D9F3CB7D6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244CA5DD-303C-4EB0-8978-6D9F3CB7D6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244CA5DD-303C-4EB0-8978-6D9F3CB7D6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{244CA5DD-303C-4EB0-8978-6D9F3CB7D6C2} = {5F454720-C53D-4601-AE19-ADA424373C8B}
+		{5CFCF88F-9C90-4811-BF6D-9BFDB7161D0E} = {A61803FE-E00E-4CA0-A28C-6368C542D76D}
+		{06A008F1-E120-49DA-8C8E-B81F811D07CA} = {5CFCF88F-9C90-4811-BF6D-9BFDB7161D0E}
+		{F28E3FE5-ABA3-4193-9A00-9F8CE51741BD} = {06A008F1-E120-49DA-8C8E-B81F811D07CA}
+		{3006F4F2-3608-49DB-8F63-A561F58B7DE8} = {F28E3FE5-ABA3-4193-9A00-9F8CE51741BD}
+	EndGlobalSection
+EndGlobal
