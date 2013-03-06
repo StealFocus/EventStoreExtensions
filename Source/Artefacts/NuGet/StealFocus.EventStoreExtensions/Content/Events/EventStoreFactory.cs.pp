@@ -5,7 +5,7 @@ namespace $rootnamespace$.Events
     using EventStore;
     using EventStore.Dispatcher;
 
-	using StealFocus.EventStoreExtensions;
+    using StealFocus.EventStoreExtensions;
 
     public class EventStoreFactory : IEventStoreFactory
     {
